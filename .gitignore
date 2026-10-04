@@ -1,0 +1,40 @@
+# Arduino IDE
+*.o
+*.a
+*.so
+.DS_Store
+Distributions/
+packages/
+reference/
+.classpath
+.project
+build/
+
+# ESP-IDF
+build/
+dist/
+.pytest_cache/
+.python-version
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# General
+*.pyc
+__pycache__/
+*.class
+*.jar
+
+# Backups
+*.bak
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local development
+local_config.h
+.env
